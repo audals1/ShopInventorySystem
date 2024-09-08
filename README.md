@@ -15,3 +15,4 @@
 
 - 간단한 ui 창 열기 닫기 기능
 - 간단한 몬스터 AI (Idle, Chase, ReturnToOriginPoint)
+- 플레이어 이름 설정

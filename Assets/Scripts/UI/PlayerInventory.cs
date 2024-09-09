@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
@@ -25,7 +23,7 @@ public class PlayerInventory : MonoBehaviour
     public void EquipWeaponFromFirstSlot()
     {
         DraggableUI firstSlotWeapon = firstInventorySlot.GetComponentInChildren<DraggableUI>();
-        
+
         if (firstSlotWeapon != null)
         {
             EquipWeapon(firstSlotWeapon);

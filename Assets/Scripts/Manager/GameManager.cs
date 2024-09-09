@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,11 +23,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (!isStartGame) return;
-        if(Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             ShowInvnetory();
         }
-        
+
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
             HideUI();

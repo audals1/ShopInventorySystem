@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Properties;
 using UnityEngine;
 
 public class MonsterController : MonoBehaviour
@@ -11,7 +8,7 @@ public class MonsterController : MonoBehaviour
         Chase,
         Return
     }
-
+    //한글주석테스트
     public float speed = 1.0f;
     public float detectionRange = 6.0f;
     public float returnRange = 10.0f;
